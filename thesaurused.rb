@@ -58,9 +58,8 @@ original = File.readlines(filename).each do |line|
 		word = token.get(:value).to_s
 		pos = token.get(:part_of_speech).to_s
 		dino = Dinosaurus.lookup(word)
-		dino = nil
 
-		unless dino.nil?
+		unless (dino.nil? || pos.length <= 1)
 			case pos
 			when "JJ", "PDT"
 				# Adjective, Predeterminer
