@@ -38,7 +38,7 @@ end
 
 # Set Dinosaurus
 Dinosaurus.configure do |config|
-	config.api_key = '6cd5b3dc04486091dd709a896f75880a'
+	config.api_key = 'YOUR_KEY_HERE'
 end
 
 # Set Linguistics
