@@ -6,7 +6,10 @@ A code poetry machine
 Thesaurused takes a text file and replaces many words into synonyms.  
 Intended to use existing poems as input.
 
-### Usage
+### Requirements
+Works on Mac OS X, and maybe Linux, I don't know.  
+Uses shell command `say` for text-to-speech.
+
 YOU MUST REGISTER TO [BIG HUGE THESAURUS](http://words.bighugelabs.com/api.php) AND GET API KEY, REPLACING KEY INSIDE THE CODE
 ```
 # Set Dinosaurus
@@ -14,6 +17,8 @@ Dinosaurus.configure do |config|
 	config.api_key = 'YOUR_KEY_HERE'
 end
 ```
+
+### Usage
 Basic usage is:
 
 	$ ./thesaurused.rb the_road_not_taken_by_robert_frost.txt
@@ -29,6 +34,7 @@ require "stanford-core-nlp"
 require "dinosaurus"
 require "linguistics"
 ```
+Plus, not sure but since Stanford CoreNLP is written in JAVA, latest JDK and `rjb` would be required, or not.
 
 ### Legal
 [Stanford-core-nlp](https://github.com/louismullie/stanford-core-nlp) uses [Stanford CoreNLP](http://nlp.stanford.edu/software/corenlp.shtml) which is licensed under the GNU General Public License (v2 or later)
