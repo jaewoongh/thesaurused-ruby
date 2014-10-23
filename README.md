@@ -7,7 +7,7 @@ Thesaurused takes a text file and replaces many words into synonyms.
 Intended to use existing poems as input.
 
 ### Usage
-YOU MUST REGISTER TO BIG HUGE THESAURUS AND GET API KEY, REPLACING KEY INSIDE THE CODE
+YOU MUST REGISTER TO [BIG HUGE THESAURUS](http://words.bighugelabs.com/api.php) AND GET API KEY, REPLACING KEY INSIDE THE CODE
 ```
 # Set Dinosaurus
 Dinosaurus.configure do |config|
