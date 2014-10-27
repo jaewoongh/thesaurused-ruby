@@ -1,3 +1,5 @@
+I learned python and made a [better version](https://github.com/jaewoongh/thesaurused) of this.
+
 Thesaurused
 ===========
 A code poetry machine
